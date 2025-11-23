@@ -2,7 +2,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Orders from "../components/Orders";
-import { TestQueryWrapper } from "./TestQueryWrapper";
+import { TestQueryWrapper } from "../utils-test/TestQueryWrapper";
 
 describe("Orders Component", () => {
   // Mock Firestore timestamp
